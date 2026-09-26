@@ -5,6 +5,9 @@ description: "Design, test and activate Shoppex automations (workflows) with the
 
 # Shoppex automations
 
+Definition shape, operators, step kinds and a complete example:
+`references/definition-format.md`.
+
 An active workflow runs on real events without asking anyone: it can issue
 store credit, send coupons or blacklist customers. The safe order below is
 what keeps a draft from hurting a live store.

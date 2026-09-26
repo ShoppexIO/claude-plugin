@@ -5,6 +5,9 @@ description: "Work in a merchant's Shoppex store with the Shoppex tools. Use for
 
 # Shoppex store operations
 
+References: `references/request-recipes.md` (typical requests and the tool
+order for each), `references/field-formats.md` (field rules and enums).
+
 The Shoppex tools act on one store: the store the merchant picked when they
 connected Shoppex. Every write is live for real buyers at once. There is no
 draft or undo for products, coupons, orders or customers.
@@ -23,7 +26,8 @@ draft or undo for products, coupons, orders or customers.
 
 ## Money and stock
 
-- Prices are decimal strings in the store currency (`"9.99"`), never floats.
+- Amounts in tool inputs are numbers in major units (`price: 9.99`), not
+  cents or strings. Details per tool: `references/field-formats.md`.
 - `available_stock` can be 0 while `orderable` is true: supplier-backed
   Dynamic Delivery products sell without local stock. Use `orderable` to
   decide whether a product can be bought.

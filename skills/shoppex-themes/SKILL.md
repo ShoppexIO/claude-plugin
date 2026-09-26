@@ -5,6 +5,9 @@ description: "Edit a Shoppex hosted storefront theme with the theme tools. Use t
 
 # Shoppex theme editing
 
+Document structure, a before/after edit and the limits:
+`references/theme-document.md`.
+
 Hosted Shoppex storefronts render a ThemeDocument: pages made of blocks from
 a fixed catalog. Saving writes a draft; buyers see a change only after
 `publish_theme_document`.
