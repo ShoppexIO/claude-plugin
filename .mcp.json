@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "shoppex": {
+      "type": "http",
+      "url": "https://api.shoppex.io/mcp"
+    }
+  }
+}

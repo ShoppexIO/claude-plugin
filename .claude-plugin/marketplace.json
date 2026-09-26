@@ -1,0 +1,17 @@
+{
+  "name": "shoppex",
+  "owner": {
+    "name": "Shoppex",
+    "email": "support@shoppex.io"
+  },
+  "metadata": {
+    "description": "Official Shoppex plugins for Claude."
+  },
+  "plugins": [
+    {
+      "name": "shoppex",
+      "source": "./",
+      "description": "Run your Shoppex store from Claude: products, orders, customers, coupons, automations and storefront themes."
+    }
+  ]
+}

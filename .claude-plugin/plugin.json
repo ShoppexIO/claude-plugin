@@ -1,0 +1,14 @@
+{
+  "name": "shoppex",
+  "version": "1.0.0",
+  "description": "Run your Shoppex store from Claude: products, orders, customers, coupons, automations and storefront themes.",
+  "author": {
+    "name": "Shoppex",
+    "email": "support@shoppex.io",
+    "url": "https://shoppex.io"
+  },
+  "homepage": "https://docs.shoppex.io/developers/claude",
+  "repository": "https://github.com/ShoppexIO/claude-plugin",
+  "license": "MIT",
+  "keywords": ["shoppex", "ecommerce", "digital-goods", "storefront", "mcp"]
+}
