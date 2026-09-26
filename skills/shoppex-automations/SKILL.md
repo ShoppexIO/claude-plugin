@@ -1,6 +1,6 @@
 ---
 name: shoppex-automations
-description: Design, test and activate Shoppex automations (workflows) safely with the workflows_* tools, from merchant goal to approved active workflow.
+description: "Design, test and activate Shoppex automations (workflows) with the workflows tools, from a merchant goal to an approved, active workflow."
 ---
 
 # Shoppex automations

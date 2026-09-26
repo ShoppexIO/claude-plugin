@@ -1,6 +1,6 @@
 ---
 name: shoppex-code-storefront
-description: Build and deploy a Shoppex code storefront (Advanced lane, React + Vite) with the shoppex CLI: pull, edit, push, deploy.
+description: "Build and deploy a Shoppex code storefront (Advanced lane, React and Vite) with the shoppex CLI. Use to pull, edit, push and deploy a code theme."
 ---
 
 # Shoppex code storefronts

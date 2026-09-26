@@ -1,6 +1,6 @@
 ---
 name: shoppex-themes
-description: Edit a Shoppex hosted storefront theme with the theme tools: read the schema, change the ThemeDocument or Builder settings, save, then publish.
+description: "Edit a Shoppex hosted storefront theme with the theme tools. Use to read the block schema, change the ThemeDocument or Builder settings, save and publish."
 ---
 
 # Shoppex theme editing

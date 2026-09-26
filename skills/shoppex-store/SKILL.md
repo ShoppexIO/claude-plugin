@@ -1,6 +1,6 @@
 ---
 name: shoppex-store
-description: Work in a merchant's Shoppex store with the Shoppex tools: products, orders, customers, coupons, payment links, tickets and analytics.
+description: "Work in a merchant's Shoppex store with the Shoppex tools. Use for products, orders, customers, coupons, payment links, support tickets and sales analytics."
 ---
 
 # Shoppex store operations
