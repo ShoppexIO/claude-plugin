@@ -37,7 +37,7 @@ into and one complete example.
 ## Example: reward loyal buyers
 
 From the third paid order, tag the buyer as VIP and email a 15% coupon, once
-per buyer. This is the `vip_reward` template.
+per buyer. Build it from scratch; there is no template for it.
 
 ```json
 {

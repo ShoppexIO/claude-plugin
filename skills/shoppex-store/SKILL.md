@@ -44,8 +44,8 @@ draft or undo for products, coupons, orders or customers.
 
 ## Reports
 
-- `analytics_revenue` and `analytics_report_generate` answer questions about
-  sales. Name the period and the currency in the answer.
+- `analytics_revenue` answers questions about sales. Name the period and
+  the currency in the answer.
 - Keep answers short: the numbers the merchant asked for, then one line of
   context. Do not dump raw JSON.
 
