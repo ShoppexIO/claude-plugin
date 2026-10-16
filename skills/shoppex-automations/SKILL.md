@@ -33,6 +33,11 @@ what keeps a draft from hurting a live store.
 
 ## Changing and stopping
 
+`workflows_update`, `workflows_set_status` and `workflows_delete` take the
+`expected_revision` from your last `workflows_get` or `workflows_list`. On
+`revision_conflict` the workflow changed since then: read it again and show
+the merchant what changed before you send the new revision.
+
 - `workflows_update` on an active workflow affects future runs. Validate
   and test the new definition first, then confirm.
 - `workflows_set_status` with `PAUSED` stops new runs;
