@@ -11,14 +11,21 @@ Claude Code, where you can run the `shoppex` CLI in the merchant's project.
 
 ## Setup
 
+The merchant signs in once, themself, in their own terminal. Show them this
+command with the placeholder and let them fill it in:
+
 ```bash
-npx @shoppexio/cli auth login --api-key <shop API key>
+npx @shoppexio/cli auth login --api-key <api-key-from-dashboard>
+```
+
+They create the value under Settings · Developer · API Keys. You never ask
+for it, read it, store it or send it anywhere, and you do not run the login.
+Continue only after the merchant says they are logged in:
+
+```bash
 npx @shoppexio/cli storefront list
 npx @shoppexio/cli storefront pull --theme <id> --dir ./storefront
 ```
-
-The merchant creates the API key under Settings · Developer · API Keys. Never
-print the key back or write it into project files.
 
 ## Edit loop
 

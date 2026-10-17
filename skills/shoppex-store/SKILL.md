@@ -36,7 +36,7 @@ draft or undo for products, coupons, orders or customers.
 
 ## Orders and support
 
-- `orders_fulfill` marks an order delivered. For key products the keys
+- `orders_fulfill` marks an order delivered. For license-key products the keys
   already went out; fulfil only when the merchant says the buyer has what
   they paid for.
 - Ticket replies go to the buyer by email. Draft the reply, show it, then

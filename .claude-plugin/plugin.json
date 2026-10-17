@@ -10,5 +10,6 @@
   "homepage": "https://docs.shoppex.io/developers/claude",
   "repository": "https://github.com/ShoppexIO/claude-plugin",
   "license": "MIT",
+  "icon": "./icon.png",
   "keywords": ["shoppex", "ecommerce", "digital-goods", "storefront", "mcp"]
 }

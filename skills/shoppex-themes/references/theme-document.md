@@ -23,7 +23,7 @@ returns the next revision, which `publish_theme_document` needs.
 - `globalBlocks`: blocks on every page (navbar, cart drawer, footer).
 - A block: `{ id, type, variant, visible, settings, children }`.
   - `type` and `variant` come from `get_document_schema`.
-  - `settings` keys are namespaced by block (`hero.title`, `hero.subtitle`).
+  - `settings` names are namespaced by block (`hero.title`, `hero.subtitle`).
   - `children` are element nodes (heading, text, button, image) with their
     own `id` and `type`.
 - `theme`: `scheme`, `style_slots` (colours and component tokens), `fonts`,
@@ -70,7 +70,7 @@ Send the whole document with only this value changed:
 
 - Keep every block `id`; the Builder and the preview address blocks by id.
   A new block needs a new unique id.
-- Do not drop fields you did not touch. Unknown keys are rejected, and
+- Do not drop fields you did not touch. Unknown fields are rejected, and
   missing ones fall back to defaults the merchant did not choose.
 - Limits: 2000 nodes per page including global blocks, 200 children per
   node, nesting depth 12, 2 MB per document.

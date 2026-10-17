@@ -1,7 +1,7 @@
 # Workflow definition format
 
 `workflows_catalog` is the source of truth for trigger types, condition
-fields, action keys and their params. This file shows the shape they fit
+fields, action names and their params. This file shows the shape they fit
 into and one complete example.
 
 ## Shape

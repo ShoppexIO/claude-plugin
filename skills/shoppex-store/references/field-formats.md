@@ -14,7 +14,7 @@ everything else may be left out.
 ## Identifiers
 
 - Products, coupons, invoices and most resources have an `id` and a
-  `uniqid`. Tools named `*_get` accept either; pass what a `*_list` returned.
+  `uniqid`. Tools named `*_get` accept either; use the value a `*_list` returned.
 - Never build an ID yourself.
 
 ## Products — `products_create`

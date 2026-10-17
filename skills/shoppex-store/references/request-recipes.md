@@ -19,13 +19,13 @@ orders, invoices, open disputes and tickets in one pass.
 
 ## Products and stock
 
-**"Add a product: Netflix 1 month, 4.99, keys attached."**
+**"Add a product: Netflix 1 month, 4.99, license keys attached."**
 1. `products_create` (write) with `title`, `price: 4.99`, `type: "SERIALS"`,
    `serials: [...]`. Leave `gateways` out to use the store's payment methods.
 2. Return the product `uniqid` and ask whether it should stay visible or be
    created `unlisted` (link only) or `private` (merchant and staff only).
 
-**"Restock product X with these 50 keys."**
+**"Restock product X with these 50 license keys."**
 1. `products_list` with `search` to find the product; confirm it is the
    right one when the title is ambiguous.
 2. `products_upload_serials` (write) with `serials` and
